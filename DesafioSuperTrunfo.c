@@ -13,7 +13,7 @@ int main() {
     struct Cidade cidade;
 
     // Entrada de dados
-    printf("Digite o nome da cidade: ");
+    printf("Digite o nome da cidade 1: ");
     fgets(cidade.nome, sizeof(cidade.nome), stdin);
 
     printf("Digite a populacao da cidade: ");
@@ -29,7 +29,7 @@ int main() {
     scanf("%d", &cidade.pontosTuristicos);
 
     // Saída de dados
-    printf("\n===== Dados da Cidade =====\n");
+    printf("\n===== Dados da Cidade 1 =====\n");
     printf("Nome: %s", cidade.nome);
     printf("Populacao: %d habitantes\n", cidade.populacao);
     printf("Area: %.2f km²\n", cidade.area);
@@ -38,7 +38,7 @@ int main() {
 
 
         // Entrada de dados
-    printf("Digite o nome da cidade 1: ");
+    printf("Digite o nome da cidade 2: ");
     fgets(cidade.nome, sizeof(cidade.nome), stdin);
 
     printf("Digite a populacao da cidade: ");
