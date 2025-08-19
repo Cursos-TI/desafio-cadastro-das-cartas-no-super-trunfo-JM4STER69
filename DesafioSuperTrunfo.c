@@ -36,5 +36,30 @@ int main() {
     printf("PIB: %.2f\n", cidade.pib);
     printf("Pontos Turisticos: %d\n", cidade.pontosTuristicos);
 
+
+        // Entrada de dados
+    printf("Digite o nome da cidade 1: ");
+    fgets(cidade.nome, sizeof(cidade.nome), stdin);
+
+    printf("Digite a populacao da cidade: ");
+    scanf("%d", &cidade.populacao);
+
+    printf("Digite a area da cidade (em km²): ");
+    scanf("%f", &cidade.area);
+
+    printf("Digite o PIB da cidade: ");
+    scanf("%f", &cidade.pib);
+
+    printf("Digite o numero de pontos turisticos da cidade: ");
+    scanf("%d", &cidade.pontosTuristicos);
+
+    // Saída de dados
+    printf("\n===== Dados da Cidade 2 =====\n");
+    printf("Nome: %s", cidade.nome);
+    printf("Populacao: %d habitantes\n", cidade.populacao);
+    printf("Area: %.2f km²\n", cidade.area);
+    printf("PIB: %.2f\n", cidade.pib);
+    printf("Pontos Turisticos: %d\n", cidade.pontosTuristicos);
+
     return 0;
 }
